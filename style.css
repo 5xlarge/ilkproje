@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.contanier{
+    background: url(kii.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;   
+  
+}
+.navbar img{
+
+    width: 160px;
+    height: 110px;
+}
+
+
+
+.logo{
+    width: 30px;
+    height: 10px;
+    margin-left: 30px;
+       
+}
+
+ul{
+    float: right;
+}
+
+.navbar h1{
+font-family: 'Gloria Hallelujah', cursive;
+font-size: 25px;
+color: rgba(244, 120, 130, 0.841)
+
+
+}
+
+ul li{
+    display:inline-block;
+    margin-right: 20px;
+}
+
+  
+ul li a{
+    font-size: 15px;
+    font-size:large;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(251, 248, 248);
+    font-family: 'Righteous', cursive;
+
+
+}
+
+
+ul li a.active,
+ul li a:hover{
+    background: rgb(210, 114, 184);
+    border-radius:18px 18px 18px 18px;
+    padding: 5px;    
+}
+
+
+div ul{
+    padding: 15px;
+    background-color: rgba(199, 106, 106, 0.414);
+    border-radius: 15px 15px 15px 15px;
+}
+
